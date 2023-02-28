@@ -1956,7 +1956,7 @@ select {
 }
 
 .form__input {
-  background-color: transparent;
+  background: rgba(255, 255, 255, 0.4);
   border: 2px solid #fa9c35;
   border-radius: 48px;
   width: 100%;
@@ -2767,6 +2767,7 @@ select {
 }
 
 .questions-block__title {
+  font-family: "Gotham Pro", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
