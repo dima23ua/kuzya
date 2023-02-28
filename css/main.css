@@ -438,6 +438,7 @@ body {
   overflow-anchor: none;
   min-width: 375px;
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 html.lock {
@@ -3946,6 +3947,7 @@ select {
 
 .buttons__slide {
   width: auto;
+  margin-bottom: 20px;
 }
 
 .buttons .btn {
@@ -5115,6 +5117,12 @@ select {
 
   .hero__image .block__content {
     height: 280px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 
