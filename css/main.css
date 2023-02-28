@@ -924,6 +924,17 @@ select {
   margin: 0 auto;
 }
 
+.footer-content__subtitle {
+  font-family: "MontserratAlternates", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(43, 43, 43, 0.9);
+  margin-bottom: 55px;
+}
+
 .footer-menu {
   margin-left: 75px;
 }
@@ -3178,6 +3189,14 @@ select {
           transform: translate(-50%, 0);
 }
 
+.previlegues-page {
+  margin-top: 89px;
+}
+
+.previlegues-page .section-title {
+  margin-bottom: 45px;
+}
+
 .btn-slider {
   width: 100%;
   max-width: 1028px;
@@ -3232,7 +3251,7 @@ select {
 .content:after {
   content: "";
   position: absolute;
-  top: 80px;
+  top: 100px;
   left: 50%;
   -webkit-transform: translate(-50%, 0);
       -ms-transform: translate(-50%, 0);
@@ -3244,12 +3263,12 @@ select {
   z-index: 0;
 }
 
-.mt-section {
-  margin-top: 160px;
+.license-section {
+  margin-top: 200px;
 }
 
-.mt-section:last-child {
-  margin-bottom: 160px;
+.license-section .section-title {
+  margin-bottom: 11px;
 }
 
 .license-section .section-title__title {
@@ -3268,7 +3287,7 @@ select {
 
 .lighting-license__content {
   width: 100%;
-  max-width: 785px;
+  max-width: 710px;
   padding: 40px;
   background-color: #fff;
   border-radius: 24px;
@@ -3286,6 +3305,7 @@ select {
 
 .comfort-security-section {
   position: relative;
+  margin-top: 160px;
 }
 
 .comfort-security-section:before {
@@ -3296,6 +3316,10 @@ select {
   width: 752px;
   height: 772px;
   background: url("../img/previlegues/purple-star.svg") no-repeat center top/cover;
+}
+
+.comfort-security-section .section-title {
+  margin-bottom: 8px;
 }
 
 .comfort-security-section .section-title__title {
@@ -3358,6 +3382,19 @@ select {
           align-items: center;
   width: 33.333%;
   padding: 15px 30px;
+  margin-bottom: 20px;
+}
+
+.comfort-security__text {
+  margin-top: 15px;
+}
+
+.about-health-section {
+  margin-top: 137px;
+}
+
+.about-health-section .section-title {
+  margin-bottom: 80px;
 }
 
 .about-health-section .section-title__title {
@@ -3393,13 +3430,14 @@ select {
 }
 
 .about-health__right {
+  padding-left: 25px;
   width: 100%;
   max-width: 520px;
   margin-right: 20px;
 }
 
 .about-health__right .section-title {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
 }
 
 .about-health__right .section-title__title {
@@ -3425,7 +3463,7 @@ select {
 
 .about-health__left {
   width: 100%;
-  max-width: 630px;
+  max-width: 660px;
 }
 
 .about-health__left-title {
@@ -3439,7 +3477,7 @@ select {
 }
 
 .about-health__left-item {
-  padding: 24px 0;
+  padding: 24px 30px 24px 0;
   border-bottom: 1px solid #9fabaf;
   font-weight: 400;
   font-size: 18px;
@@ -3551,6 +3589,11 @@ select {
   transition: all 0.2s ease 0s;
 }
 
+.love-to-section {
+  margin-top: 250px;
+  margin-bottom: 190px;
+}
+
 .love-to-section .section-title__title {
   color: #d7414d;
   text-transform: uppercase;
@@ -3566,10 +3609,14 @@ select {
   color: #000;
 }
 
+.service-page {
+  margin-top: 83px;
+}
+
 .knowledge-title {
   max-width: 730px;
   margin: 0 auto;
-  margin-bottom: 75px;
+  margin-bottom: 80px;
 }
 
 .knowledge {
@@ -3581,7 +3628,7 @@ select {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 -115px 200px;
+  margin: 0 -115px 175px;
 }
 
 .knowledge__item {
@@ -3600,7 +3647,30 @@ select {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  padding: 15px;
+}
+
+.knowledge__item:nth-child(1):after,
+.knowledge__item:nth-child(2):after,
+.knowledge__item:nth-child(3):after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 30px;
+  width: 120px;
+  height: 70px;
+  background: url("../img/services/dash-left.svg") no-repeat center top/cover;
+}
+
+.knowledge__item:nth-child(2):before,
+.knowledge__item:nth-child(3):before,
+.knowledge__item:nth-child(4):before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 30px;
+  width: 120px;
+  height: 70px;
+  background: url("../img/services/dash-right.svg") no-repeat center top/cover;
 }
 
 .knowledge__block-item {
@@ -3625,6 +3695,7 @@ select {
   font-size: 18px;
   line-height: 178%;
   color: #000;
+  margin-top: 25px;
 }
 
 .knowledge-blocks {
@@ -3687,9 +3758,12 @@ select {
   background: linear-gradient(92.23deg, #FA9C35 0%, rgba(250, 156, 53, 0.1) 100%);
 }
 
+.serv .form-block {
+  margin-bottom: 100px;
+}
+
 .day-group {
   width: 100%;
-  max-width: 680px;
   padding-bottom: 50px;
   border-bottom: 1px dashed #fa9c35;
 }
@@ -3734,7 +3808,7 @@ select {
 
 .day-block {
   border-bottom: 1.5px dashed #fa9c35;
-  padding: 24px 0;
+  padding: 22px 0;
   margin-bottom: 40px;
 }
 
@@ -3758,6 +3832,7 @@ select {
 }
 
 .mother .day-block {
+  padding: 32px 0;
   margin-bottom: 0;
 }
 
@@ -3766,7 +3841,7 @@ select {
 }
 
 .mother .list-program-descr {
-  padding: 40px 0;
+  padding: 10px 0;
   border-bottom: 1.5px dashed #fa9c35;
 }
 
@@ -3783,7 +3858,7 @@ select {
   font-size: 20px;
   line-height: 120%;
   color: #06547a;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .day-program-subtitle {
@@ -3793,11 +3868,15 @@ select {
   color: #000;
 }
 
+.days-group {
+  margin-bottom: 50px;
+}
+
 .program {
   -webkit-columns: 2;
      -moz-columns: 2;
           columns: 2;
-  margin-bottom: 55px;
+  margin-bottom: 33px;
 }
 
 .program__item {
@@ -3828,10 +3907,11 @@ select {
 }
 
 .list-program-descr {
-  padding: 0 0 40px 0;
+  padding: 0 0 60px 0;
 }
 
 .list-program-descr__paragraph {
+  font-family: "MontserratAlternates", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 156%;
@@ -3847,6 +3927,7 @@ select {
   border-radius: 24px;
   overflow: hidden;
   border: 1px solid #fa9c35;
+  margin-top: 25px;
 }
 
 .list-program-table__header-list {
@@ -3898,20 +3979,21 @@ select {
 .list-program-table__time {
   width: 100%;
   max-width: 300px;
-  padding: 8px 24px;
+  padding: 16px 24px;
   position: relative;
   z-index: 2;
 }
 
 .list-program-table__text {
   width: 100%;
-  padding: 8px 24px;
+  padding: 16px 24px;
   position: relative;
   z-index: 2;
   border-left: 1px solid #fa9c35;
 }
 
 .schedule {
+  margin-top: 20px;
   margin-bottom: 55px;
 }
 
@@ -3940,7 +4022,7 @@ select {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 8px 0;
+  padding: 16px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -3959,6 +4041,10 @@ select {
   color: #fa9c35;
 }
 
+.mother {
+  margin-top: 90px;
+}
+
 .service {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3975,7 +4061,7 @@ select {
 
 .service__right {
   width: 100%;
-  max-width: 640px;
+  max-width: 610px;
 }
 
 .buttons {
@@ -4153,6 +4239,28 @@ select {
     max-height: 1000px;
     opacity: 1;
     visibility: visible;
+  }
+}
+
+@media (max-width: 1260px) {
+  .knowledge {
+    margin: 0 0 175px 0;
+  }
+
+  .knowledge__item:nth-child(1):after,
+  .knowledge__item:nth-child(2):after,
+  .knowledge__item:nth-child(3):after {
+    top: 30px;
+    width: 80px;
+    height: 45px;
+  }
+
+  .knowledge__item:nth-child(2):before,
+  .knowledge__item:nth-child(3):before,
+  .knowledge__item:nth-child(4):before {
+    top: 30px;
+    width: 80px;
+    height: 45px;
   }
 }
 
@@ -4645,6 +4753,23 @@ select {
     position: static;
   }
 
+  .license-section {
+    margin-top: 100px;
+  }
+
+  .comfort-security-section {
+    margin-top: 100px;
+  }
+
+  .about-health-section {
+    margin-top: 100px;
+  }
+
+  .love-to-section {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
   .services {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4769,6 +4894,7 @@ select {
   .about-health__right {
     max-width: 100%;
     margin-bottom: 40px;
+    padding-left: 0;
   }
 
   .about-health__left {
@@ -4815,6 +4941,11 @@ select {
         -ms-flex-pack: start;
             justify-content: flex-start;
     position: relative;
+  }
+
+  .knowledge__item:nth-child(2):before,
+  .knowledge__item:nth-child(4):before {
+    display: none;
   }
 
   .knowledge__item:nth-child(odd) {
